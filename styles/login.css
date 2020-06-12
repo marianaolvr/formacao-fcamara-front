@@ -1,0 +1,190 @@
+/* RESET CSS  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-size: auto 100vh;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('/assets/Trebuchet/TREBUC.TTF'),
+    url('/assets/Trebuchet/TREBUCBD.TTF'),
+    url('/assets/Trebuchet/TREBUCBI.TTF'),
+    url('/assets/Trebuchet/TREBUCIT.TTF');
+}
+
+/* MENU */
+
+.container {
+    background: 
+    url("../assets/Elements/elemento_azul.png"),
+    url("../assets/Elements/elemento_laranja.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 169.26px 537.84px, 213.61px 465.61px;
+    background-position: bottom left, top right;
+}
+
+
+.menu {
+  width: 100vw;
+  padding: 3% 4%;
+  background-color: rgba(255, 255, 255, 0);
+  /* position: fixed; */
+  box-shadow: rgb(238, 238, 238) 2px 2px 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 29px;
+  width: 31px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.title-form h1 {
+  /* font-family: "Trebuchet MS"; */
+  margin-bottom: 12%;
+  font-size: 25px;
+  color: #305e92;
+  font: Bold 25px/29px Trebuchet MS;
+  letter-spacing: 0px;
+}
+
+.form {
+  box-shadow: 0px 6px 6px #00000014;
+  border: 1px solid #707070;
+  border-radius: 15px;
+  opacity: 1;
+  padding: 8% 8%;
+  margin-bottom: 5%;
+}
+
+.btn-login-cliente,
+.btn-login-prestador {
+  box-shadow: 0px 2px 2px #00000066;
+  border-style: none;
+  border-radius: 15px;
+  padding: 5% 3%;
+  height: 40px;
+  width: 120px;
+}
+.btn-login-cliente {
+  background-color: #305e92;
+}
+
+.btn-login-prestador {
+  background-color: #fc4638;
+}
+
+.btn-login-cliente a,
+.btn-login-prestador a {
+  color: white;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.btns-form {
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  width: 288px;
+  height: 44px;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.btn-entrar {
+  border-style: none;
+  background-color: #fc4638;
+  border-radius: 43px;
+  width: 94px;
+  height: 32px;
+  align-self: center;
+}
+
+.btn-entrar a {
+  color: white;
+  font-size: 15px;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.forgotpass {
+  align-self: flex-end;
+  margin-bottom: 10%;
+}
+
+.forgotpass a {
+  color: #305e92;
+}
+
+.btn-cadastro a {
+  color: #305e92;
+}
+
+footer {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  height: 100px;
+}
+
+@media (max-width: 1920px) {
+
+    .container {
+        background-size: 435.73px 1384.54px, 434.6px 947.28px;
+
+    }
+
+
+  .main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .menu {
+    padding: 3% 4%;
+    height: 10vh;
+  }
+
+  footer {
+      height: 461px;
+  }
+
+  
+}
