@@ -9,7 +9,6 @@ Repository created for sprint deliveries
 Responsiveness under construction<br>
 Inspect for:
 
-<strong>PAGES</strong><br>
-<strong>LOGIN</strong> mobile firts -> 414px x 734px<br>
-<strong>HOME</strong> web first -> 1920px x 1084px
+<strong>LOGIN PAGE</strong> mobile firts -> 414px x 734px<br>
+<strong>HOME PAGE</strong> web first -> 1920px x 1084px
 
