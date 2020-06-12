@@ -6,8 +6,10 @@ Repository created for sprint deliveries
 
 <strong>SPRINT 1</strong><br>12/06/2020
 
-<strong>PAGES</strong>
+Responsiveness under construction<br>
+Inspect for:
 
-<strong>LOGIN:</strong> mobile firts -> 414px x 734px<br>
-<strong>HOME:</strong> web first -> 1920px x 1084px
+<strong>PAGES</strong><br>
+<strong>LOGIN</strong> mobile firts -> 414px x 734px<br>
+<strong>HOME</strong> web first -> 1920px x 1084px
 
