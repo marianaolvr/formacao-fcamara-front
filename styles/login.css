@@ -1,14 +1,13 @@
-/* RESET CSS  */
-
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   background-size: auto 100vh;
+  font-family: "Trebuchet MS";
 }
 img {
   max-width: 100%;
@@ -20,171 +19,314 @@ ul {
   list-style: none;
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url('/assets/Trebuchet/TREBUC.TTF'),
-    url('/assets/Trebuchet/TREBUCBD.TTF'),
-    url('/assets/Trebuchet/TREBUCBI.TTF'),
-    url('/assets/Trebuchet/TREBUCIT.TTF');
-}
 
-/* MENU */
+
 
 .container {
-    background: 
-    url("../assets/Elements/elemento_azul.png"),
-    url("../assets/Elements/elemento_laranja.png");
-    background-repeat: no-repeat, no-repeat;
-    background-size: 169.26px 537.84px, 213.61px 465.61px;
-    background-position: bottom left, top right;
+  background:
+  url("../assets/Elements/elemento_azul.png"),
+  url("../assets/Elements/elemento_laranja-crop.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 169.26px 537.84px, 213.61px 465.61px;
+  background-position: center left, top right;
 }
 
+a {
+font-family: "Titillium Web", sans-serif;
+}
 
 .menu {
-  width: 100vw;
-  padding: 3% 4%;
-  background-color: rgba(255, 255, 255, 0);
-  /* position: fixed; */
-  box-shadow: rgb(238, 238, 238) 2px 2px 3px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* width: 100vw; position: fixed; box-shadow: rgb(238, 238, 238) 2px 2px 3px; */
+padding: 3% 4%;
+padding-right: 10%;
+background-color: rgba(255, 255, 255, 0);
+border-bottom: 1px solid #70707031;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .logo img {
-  height: 29px;
-  width: 31px;
+height: 29px;
+width: 31px;
+}
+
+nav a {
+color: #707070;
+font-family: "Titillium Web", sans-serif;
+font-weight: bold;
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 25%;
-  margin-bottom: 25%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10%;
+margin-bottom: 20%;
+}
+
+.container-form {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .title-form h1 {
-  /* font-family: "Trebuchet MS"; */
-  margin-bottom: 12%;
-  font-size: 25px;
-  color: #305e92;
-  font: Bold 25px/29px Trebuchet MS;
-  letter-spacing: 0px;
+margin-bottom: 7%;
+font-size: 25px;
+color: #305e92;
 }
 
 .form {
-  box-shadow: 0px 6px 6px #00000014;
-  border: 1px solid #707070;
-  border-radius: 15px;
-  opacity: 1;
-  padding: 8% 8%;
-  margin-bottom: 5%;
+box-shadow: 0px 6px 6px #00000014;
+border: 1px solid #707070;
+border-radius: 15px;
+opacity: 1;
+padding: 8% 8%;
+margin-bottom: 5%;
+width: 85vw;
+height: auto;
+background-color: white;
 }
 
 .btn-login-cliente,
 .btn-login-prestador {
-  box-shadow: 0px 2px 2px #00000066;
-  border-style: none;
-  border-radius: 15px;
-  padding: 5% 3%;
-  height: 40px;
-  width: 120px;
+box-shadow: 0px 2px 2px #00000066;
+border-style: none;
+border-radius: 40px;
+padding: 4% 0;
+width: 40%;
 }
 .btn-login-cliente {
-  background-color: #305e92;
+background-color: #305e92;
+margin-right: 2%;
 }
 
 .btn-login-prestador {
-  background-color: #fc4638;
+background-color: #fc4638;
+margin-left: 2%;
 }
 
 .btn-login-cliente a,
 .btn-login-prestador a {
-  color: white;
-  font-size: 12px;
-  white-space: nowrap;
+color: white;
+font-size: 12px;
+white-space: nowrap;
+font-family: "Titillium Web", sans-serif;
+font-weight: bold;
 }
 
 .btns-form {
-  margin-bottom: 10%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+margin-bottom: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 input {
-  width: 288px;
-  height: 44px;
-  border: 1px solid #707070;
-  border-radius: 8px;
-  margin-top: 3%;
-  margin-bottom: 3%;
+width: 100%;
+height: 5vh;
+border: 1px solid #707070;
+border-radius: 8px;
+margin-top: 3%;
+margin-bottom: 3%;
+
 }
 
 .btn-entrar {
-  border-style: none;
-  background-color: #fc4638;
-  border-radius: 43px;
-  width: 94px;
-  height: 32px;
-  align-self: center;
+border-style: none;
+background-color: #fc4638;
+border-radius: 43px;
+padding: 4% 0;
+width: 40%;
+align-self: center;
 }
 
 .btn-entrar a {
-  color: white;
-  font-size: 15px;
+color: white;
+font-size: 15px;
+font-family: "Titillium Web", sans-serif;
+font-weight: bold;
 }
 
 .container-btn {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
+margin-bottom: 25px;
 }
 
 .forgotpass {
-  align-self: flex-end;
-  margin-bottom: 10%;
+align-self: flex-end;
+margin-bottom: 10%;
 }
 
 .forgotpass a {
-  color: #305e92;
+color: #305e92;
 }
 
 .btn-cadastro a {
-  color: #305e92;
+color: #305e92;
+font-weight: bold;
+text-decoration: underline;
 }
 
 footer {
-  /* height: 100vh; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #fafafa;
-  height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #fafafa;
+height: 25vh;
+
 }
 
-@media (max-width: 1920px) {
-
-    .container {
-        background-size: 435.73px 1384.54px, 434.6px 947.28px;
-
-    }
+footer p {
+font-family: "Titillium Web", sans-serif;
+font-weight: normal;
+}
 
 
-  .main {
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
+@media (min-width: 768px) {
+.container {
+  background-size:
+  335.73px 884.54px,
+  334.6px 547.28px;
+}
 
-  .menu {
-    padding: 3% 4%;
-    height: 10vh;
-  }
+nav a {
+font-size: 20px;
+}
 
-  footer {
-      height: 461px;
-  }
+.form {
+width: 65vw;
+}
 
-  
+.title-form h1 {
+font-size: 32px;
+}
+
+
+.btn-login-cliente a,
+.btn-login-prestador a {
+font-size: 15px;
+}
+
+input {
+height: 5vh;
+}
+
+.btn-entrar a {
+font-size: 18px;
+}
+
+label {
+font-size: 18px;
+font-family: "Titillium Web", sans-serif;
+font-weight: bold;
+}
+
+.forgotpass a {
+font-size: 18px;
+}
+
+.btn-cadastro {
+font-size: 18px;
+}
+
+}
+
+@media (min-width: 1024px) {
+
+.container {
+  background-size:
+  400.73px 916.54px,
+  400.6px 593.28px;
+
+  background-position:
+  center left,
+  top right;
+}
+
+.title-form h1 {
+font-size: 45px;
+}
+
+
+.btn-login-cliente a,
+.btn-login-prestador a {
+font-size: 23px;
+}
+
+.main {
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+
+.menu {
+padding: 3% 4%;
+height: 10vh;
+}
+
+
+
+}
+
+
+@media (min-width: 1920px) {
+.container {
+  background-size:
+  435.73px 1384.54px,
+  434.6px 947.28px;
+
+  background-position:
+  center left,
+  top right;
+}
+
+.title-form h1 {
+font-size: 55px;
+}
+
+nav a {
+font-size: 25px;
+}
+
+.form {
+  width: 45vw;
+
+}
+
+.btn-entrar {
+padding: 2%;
+}
+
+.btn-entrar a {
+font-size: 32px;
+}
+
+.btn-login-cliente a,
+.btn-login-prestador a {
+font-size: 29px;
+}
+
+label {
+font-size: 32px;
+}
+
+.forgotpass a {
+font-size: 28px;
+}
+
+.btn-cadastro {
+font-size: 25px;
+}
+
+
+footer {
+height: 461px;
+font-size: 40px;
+
+}
+
 }
