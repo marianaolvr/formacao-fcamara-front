@@ -1,0 +1,150 @@
+.body {
+    background:
+    url("src/assets/Elements/elemento_azul.png"),
+    url("src/assets/Elements/elemento_laranja-crop.png");
+    background-repeat: no-repeat;
+  
+    background-size:
+    28%,
+    33%;
+  
+    background-position:
+    0% 3%,
+    top right;
+  }
+  
+  label,
+  a,
+  p {
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  
+  /* NAVBAR */
+  #menu-site {
+    border-bottom: 1px solid #70707031;
+    background-color: #ffffff00;
+  }
+  
+  #menu-font {
+    font-weight: bold;
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  .menu-align {
+    align-items: center;
+  }
+  
+  /* TITLE */
+  h1 {
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    color: #305E92;
+  }
+  
+  /* FORM */
+  .form-content {
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  
+  
+  form {
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    box-shadow: 0px 6px 6px #00000014;
+    opacity: 1;
+    padding: 3%;
+  }
+  
+  /* FORM: BUTTONS */
+  
+  
+  
+  .btns-form {
+    margin-bottom: 10%;
+  }
+  
+  .btn-login-cliente,
+  .btn-login-prestador {
+    box-shadow: 0px 2px 2px #00000066;
+    border-style: none;
+    border-radius: 43px;
+    color: white;
+    font-weight: bold;
+    font-family: "Titillium Web", sans-serif;
+  }
+  .btn-login-cliente {
+    background-color: #305e92;
+    margin-right: 2%;
+  }
+  
+  .btn-login-prestador {
+    background-color: #fc4638;
+    margin-left: 2%;
+  }
+  
+  
+  
+  .btn-entrar {
+    border-style: none;
+    background-color: #fc4638;
+    border-radius: 43px;
+    padding: 1.5% 6%;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  
+  
+  
+  /* FORM: ESQUECI MINHA SENHA */
+  .forgotpass {
+    align-self: flex-end;
+    margin-bottom: 10%;
+  }
+  
+  .forgotpass a {
+    color: #305e92;
+    font-weight: bold;
+  }
+  
+  
+  
+
+  .btn-cadastro a {
+    color: #305e92;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  /* FOOTER */
+  .section6 {
+    background-color: #FAFAFA;
+    padding: 5% 5%;
+  }
+  
+  .footer p {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: normal;
+  
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.2px;
+  }
+  
+  
+  
+  
+  
+  /* MEDIAS */
